@@ -51,7 +51,6 @@
 -   [puppeteer-github](https://github.com/transitive-bullshit/puppeteer-github)- 由puppeteer 驱动的 GitHub自动化. 
 -   [puppeteer-github-cli](https://github.com/transitive-bullshit/puppeteer-github-cli)- 由puppeteer 驱动的 GitHub自动化CLI. 
 -   [docker-puppeteer](https://github.com/alekzonder/docker-puppeteer)- 安装了puppeteer的Docker镜像. 
--   [puppeteer-deep](https://github.com/zhentaoo/puppeteer-deep)- 虽然我不确定它的作用 (PR?) ,但似乎很受欢迎. 
 -   [puppeteer-explore](https://github.com/laispace/puppeteer-explore)- Puppeteer的实用程序库. 
 -   [differencify](https://github.com/NimaSoroush/differencify)- 用于视觉回归测试的库. 
 -   [puppeteer-extra](https://github.com/berstend/puppeteer-extra)- 包装使用隐身模式,自定义用户首选项等. 
@@ -90,13 +89,14 @@
 
 ## 例子
 
--   [官方 例子](https://github.com/GoogleChrome/puppeteer/tree/master/examples/)- 作为官方Puppeteer的一部分的优质示例. 
+-   [官方 例子](https://github.com/puppeteer/puppeteer/tree/main/examples)- 作为官方Puppeteer的一部分的优质示例. 
 -   [官方 使用 case-driven 例子](https://github.com/GoogleChromeLabs/puppeteer-examples)- 更复杂,高质量,用例驱动的示例. 
 -   [puppeteer-examples](https://github.com/checkly/puppeteer-examples)- 实际使用案例的质量示例,例如抓取网页和常见登录方案. 
 -   [puppeteer-samples](https://github.com/sweekson/puppeteer-samples)- 其他例子. 
 -   [daily-signin](https://github.com/yidinghan/daily-signin)- 登录并控制各个中国网站. 
 -   [linkedin-autoaccept](https://github.com/MRdotB/linkedin-autoaccept)- 自动接受linkedin上的邀请. 
 -   [instagram-get-images](https://github.com/aofdev/instagram-get-images)-  Instagram 搜罗图片. 
+-   [puppeteer-deep](https://github.com/zhentaoo/puppeteer-deep)- 关于高级爬虫，UI 自动化和 Trace API 的几个示例. 
 
 ## 博文
 
@@ -121,3 +121,5 @@
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
 
 在法律允许的范围内,[Travis Fischer](https://github.com/transitive-bullshit)已放弃对此作品的所有版权及相关或邻接权利. 
+
+Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>

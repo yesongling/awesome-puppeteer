@@ -3,7 +3,7 @@
 > A curated list of awesome [puppeteer](https://developers.google.com/web/tools/puppeteer/) resources for controlling [headless](https://developers.google.com/web/updates/2017/04/headless-chrome) Chrome (or Chromium) over the [DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/).
 
 <p align="center">
-  <img width="200" src="https://cdn.rawgit.com/transitive-bullshit/awesome-puppeteer/master/logo.png">
+  <img src="https://raw.githubusercontent.com/transitive-bullshit/awesome-puppeteer/master/logo.png" alt="Puppeteer Logo" width="200" />
 </p>
 
 - [![china](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **中文/Chinese**](https://github.com/transitive-bullshit/awesome-puppeteer/blob/master/readme.zh.md)
@@ -18,6 +18,7 @@
 - [Services](#services)
 - [Examples](#examples)
 - [Articles](#articles)
+- [Guides](#guides)
 - [Related](#related)
 
 
@@ -34,21 +35,34 @@
 
 ## Packages
 
+- [puppeteer-lottie](https://github.com/transitive-bullshit/puppeteer-lottie) - Renders [Lottie](http://airbnb.io/lottie) animations via [Puppeteer](https://github.com/GoogleChrome/puppeteer) to **image**, **GIF** or **MP4**.
+- [puppeteer-lottie-cli](https://github.com/transitive-bullshit/puppeteer-lottie-cli) - CLI for this [puppeteer-lottie](https://github.com/transitive-bullshit/puppeteer-lottie).
 - [puppeteer-email](https://github.com/transitive-bullshit/puppeteer-email) - Email automation driven by headless chrome.
 - [puppeteer-email-cli](https://github.com/transitive-bullshit/puppeteer-email/tree/master/packages/puppeteer-email-cli) - CLI for email automation driven by headless chrome.
 - [puppeteer-instagram](https://github.com/transitive-bullshit/puppeteer-instagram) - Instagram automation driven by headless chrome.
 - [puppeteer-instagram-cli](https://github.com/transitive-bullshit/puppeteer-instagram-cli) - CLI for Instagram automation driven by headless chrome.
 - [puppeteer-github](https://github.com/transitive-bullshit/puppeteer-github) - GitHub automation driven by headless chrome.
 - [puppeteer-github-cli](https://github.com/transitive-bullshit/puppeteer-github-cli) - CLI for GitHub automation driven by headless chrome.
+- [puppeteer-social-image](https://github.com/chrisvxd/puppeteer-social-image) - Render social share images using HTML + CSS.
 - [docker-puppeteer](https://github.com/alekzonder/docker-puppeteer) - Docker image with puppeteer installed.
-- [puppeteer-deep](https://github.com/zhentaoo/puppeteer-deep) - Seems popular, though I'm not sure what it does (PR?).
 - [puppeteer-explore](https://github.com/laispace/puppeteer-explore) - Utility library for puppeteer.
 - [differencify](https://github.com/NimaSoroush/differencify) - Library for visual regression testing.
 - [puppeteer-extra](https://github.com/berstend/puppeteer-extra) - Wrapper to use stealth mode, custom user prefs, etc.
+- [puppeteer-theater](https://github.com/nicoandmee/puppeteer-theater) - Automation framework focused on simplifying advanced workflows and stealth.
 - [puppeteer-render-text](https://github.com/transitive-bullshit/puppeteer-render-text) - Robust text renderer using headless chrome.
 - [puppeteer-recorder](https://github.com/checkly/puppeteer-recorder) - Chrome extension that records your browser interactions and generates a Puppeteer script. 🔥
+- [minimalcss](https://github.com/peterbe/minimalcss) - Extracts the minimal / critical CSS used in a set of URLs.
 - [puppeteer-cluster](https://github.com/thomasdondorf/puppeteer-cluster) - Cluster management for puppeteer.
-
+- [chrome-aws-lambda](https://github.com/alixaxel/chrome-aws-lambda) - Chromium binary compatible with AWS Lambda (kept up to date with puppeteer).
+- [capture-website](https://github.com/sindresorhus/capture-website) - Capture screenshots of websites.
+- [capture-website-cli](https://github.com/sindresorhus/capture-website-cli) - CLI to capture screenshots of websites.
+- [facebook-birthday-cli](https://github.com/igniteram/facebook-birthday-cli) - Command Line Interface to list and wish your facebook friends.
+- [timecut](https://github.com/tungs/timecut) - Record smooth movies of web pages with JavaScript animations.
+- [timesnap](https://github.com/tungs/timesnap) - Take screenshots of web pages at smooth intervals.
+- [pwa-asset-generator](https://github.com/onderceylan/pwa-asset-generator) - CLI to generate multi-platform PWA icons, splash screens and meta code based on web standards.
+- [@cliqz/adblocker-puppeteer](https://github.com/cliqz-oss/adblocker/tree/master/packages/adblocker-puppeteer) - Efficient and flexible adblocker library to easily block ads and trackers.
+- [browserless](https://browserless.js.org) – A puppeteer-like Node.js library for interacting with Headless production scenarios.
+- [puppet-canvas](https://github.com/pshihn/puppet-canvas) - HTML5 Canvas implementation for Node.JS backed by Puppeteer.
 
 ## Rendering and web scraping
 
@@ -62,7 +76,8 @@
 - [Apify SDK](https://github.com/apifytech/apify-js) - Scalable web crawling and scraping library. 🕷️
 - [webgif](https://github.com/anishkny/webgif) - Easily generate animated GIFs from websites.
 - [whatspup](https://github.com/sarfraznawaz2005/whatspup) - WhatsApp chat from commandline/console/cli.
-
+- [Wbot](https://github.com/vasani-arpit/WBOT) - Configurable Whatsapp auto reply bot.
+- [BrowserGap](https://github.com/dosyago/BrowserGap) - Remote browser webview powered by Headless Chrome.
 
 ## Testing
 
@@ -75,7 +90,8 @@
 - [rize](https://github.com/g-plane/rize) - High-level, fluent and chainable API provided library for puppeteer.
 - [mochify](https://github.com/mantoni/mochify.js) - TDD with Browserify, Mocha, Headless Chrome and WebDriver.
 - [tupe](https://github.com/jl-/tupe) - A generic unit-testing runner for front-end.
-
+- [puppetry](https://puppetry.app/) - Scriptless E2E test automation tool.
+- [wendigo](https://github.com/angrykoala/wendigo) - Puppeteer wrapper to ease test development.
 
 ## Services
 
@@ -83,18 +99,24 @@
 - [checkly](https://checklyhq.com) - Monitoring SaaS that uses Puppeteer to check availability and correctness of web pages and apps.
 - [url-to-pdf-api](https://github.com/alvarcarto/url-to-pdf-api) - Web page PDF rendering done right. Self-hosted service for rendering.
 - [browserless](https://github.com/joelgriffith/browserless) - Headless Chrome as a service letting you execute Puppeteer scripts remotely.
+- [FusionExport](https://www.fusioncharts.com/fusionexport) - Export dashboards or charts to PDF or images. Looks mature.
+- [ProxyCrawl](https://proxycrawl.com) - Headless Chrome as a service.
+- [microlink.io](https://microlink.io) – Turns any site into data.
+- [HeadlessTesting](https://headlesstesting.com) – Headless Chrome testing with Puppeteer in the Cloud.
+- [FloodRunner](https://floodrunner.dev) - Open-source monitoring solution using puppeteer tests
 
 
 ## Examples
 
-- [Official examples](https://github.com/GoogleChrome/puppeteer/tree/master/examples/) - Quality examples as part of the official puppeteer repo.
+- [Official examples](https://github.com/puppeteer/puppeteer/tree/main/examples) - Quality examples as part of the official puppeteer repo.
 - [Official use case-driven examples](https://github.com/GoogleChromeLabs/puppeteer-examples) - More complex, high quality, use case-driven examples.
 - [puppeteer-examples](https://github.com/checkly/puppeteer-examples) - Quality examples for real life use cases such as scraping web pages and common login scenarios.
 - [puppeteer-samples](https://github.com/sweekson/puppeteer-samples) - Misc examples.
 - [daily-signin](https://github.com/yidinghan/daily-signin) - Signin and control various chinese sites.
 - [linkedin-autoaccept](https://github.com/MRdotB/linkedin-autoaccept) - Auto-accept invitations on linkedin.
 - [instagram-get-images](https://github.com/aofdev/instagram-get-images) - Instagram image scraper.
-
+- [puppeteer-deep](https://github.com/zhentaoo/puppeteer-deep) - Demos on crawling, UI automation, trace API and so on.
+- [html_to_pdf](https://github.com/chuongtrh/html_to_pdf) - Generate a simple invoice PDF from HTML.
 
 ## Articles
 
@@ -103,13 +125,17 @@
 - [A Guide to Automating & Scraping the Web with JavaScript (Chrome + Puppeteer + Node JS)](https://codeburst.io/a-guide-to-automating-scraping-the-web-with-javascript-chrome-puppeteer-node-js-b18efb9e9921) - Excellent, thorough article.
 - [Chromeless, Chrominator, Chromy, Navalia, Lambdium, GhostJS, AutoGCD](https://medium.com/@kensoh/chromeless-chrominator-chromy-navalia-lambdium-ghostjs-autogcd-ef34bcd26907) - Alternative Headless Chrome Projects.
 - [What's the difference between Chromium and Chrome?](https://www.howtogeek.com/202825/what%E2%80%99s-the-difference-between-chromium-and-chrome/)
+- [NodeJs Scraping with Puppeteer](https://learnscraping.com/nodejs-web-scraping-with-puppeteer/) - IMDB Scraping example.
 
+## Guides
+
+- [theheadless.dev](https://theheadless.dev) - Practical guides and runnable examples on Puppeteer (and Playwright).
 
 ## Related
 
 - [puppeteer-sharp](https://github.com/kblok/puppeteer-sharp) - Port of Puppeteer to .NET.
 - [foxr](https://github.com/deepsweet/foxr) - Node.js API to control Firefox. 🦊
-- [pyppeteer](https://github.com/miyakogi/pyppeteer) - Unofficial Python port of Puppeteer.
+- [pyppeteer](https://github.com/pyppeteer/pyppeteer) - Unofficial Python port of Puppeteer.
 - [capybara-chrome](https://github.com/carezone/capybara-chrome) – Unofficial Ruby port of Puppeteer.
 
 
@@ -123,3 +149,5 @@ Contributions welcome! Please read the [contributing guideline](contributing.md)
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
 
 To the extent possible under law, [Travis Fischer](https://github.com/transitive-bullshit) has waived all copyright and related or neighboring rights to this work.
+
+Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
